@@ -107,7 +107,7 @@ Microtask Priority Visualization
 
 ### Some Important Questions 
 
-1. **When does the event loop actually start ? -** Event loop, as the name suggests, is a single-thread, loop that is *almost infinite*. It's always running and doing its job.
+1. **When does the event loop actually start ? -** Event loop, as the name suggests, is  a single-thread, loop that is *almost infinite*. It's always running and doing its job.
 
 2. **Are only asynchronous web api callbacks are registered in web api environment? -** YES, the synchronous callback functions like what we pass inside map, filter and reduce aren't registered in the Web API environment. It's just those async callback functions which go through all this.
 
